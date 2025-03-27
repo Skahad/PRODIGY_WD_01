@@ -80,7 +80,8 @@ html {
 
 }
 
-.nav-menu a:hover {
+.nav-menu a:hover,
+.nav-menu a.active {
     color: cyan;
     background-color: rgba(0, 115, 255, 0.303);
     border-radius: 5px;
