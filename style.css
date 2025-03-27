@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     border: none;
+    text-decoration: none;
     outline: none;
     scroll-behavior: smooth;
     font-family: 'poppins', sans-serif;
@@ -46,11 +47,11 @@ html {
     z-index: 1;
 }
 
+
 .logo {
     display: inline-block;
     cursor: pointer;
     transition: 0.3s;
-
 }
 
 .logo:hover {
@@ -58,20 +59,20 @@ html {
     box-shadow: 0 0 1px 1px cyan;
 }
 
+
 .navbar.scrolled {
     background: #08069f74;
     border-radius: 1rem;
 }
 
-.nav-menu {
-    list-style: none;
+
+.navbar{
     display: flex;
     gap: 20px;
+
 }
 
-
-.nav-menu a {
-    text-decoration: none;
+.navbar a {
     color: whitesmoke;
     font-size: 18px;
     padding: 10px;
@@ -80,8 +81,8 @@ html {
 
 }
 
-.nav-menu a:hover,
-.nav-menu a.active {
+.navbar a:hover,
+.navbar a.active {
     color: cyan;
     background-color: rgba(0, 115, 255, 0.303);
     border-radius: 5px;
@@ -92,7 +93,7 @@ html {
 }
 
 
-.Home {
+.home {
     position: relative;
     display: flex;
     justify-content: center;
@@ -170,68 +171,68 @@ span {
 }
 
 @media screen and (max-width:870px) {
-    .Home{
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       padding: 0 8%;
-       min-height: 85vh;
-       
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 8%;
+        min-height: 85vh;
+
     }
 
-    .home-img img{
+    .home-img img {
         width: 40vw;
     }
 
-    span{
+    span {
         font-size: 3rem;
     }
 
 
-    .home-content{
+    .home-content {
         justify-content: center;
         align-items: center;
-        
+
     }
 
-    .home-content h1{
+    .home-content h1 {
         font-size: 3rem;
     }
-    
+
+}
+
+@media screen and (max-width:475px) {
+    .home-img img {
+        width: 50vw;
+        margin-top: 3rem;
     }
 
-    @media screen and (max-width:475px){
-        .home-img img{
-            width: 50vw;
-            margin-top: 3rem;
-        }
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 8%;
+        min-height: 85vh;
+    }
 
-        .Home{
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 0 8%;
-            min-height: 85vh;       
-        }
+    .header {
+        padding: 0 2%;
+    }
 
-        .header{
-            padding: 0 2%;
-        }
+    span {
+        font-size: 2rem;
+    }
 
-        span{
-            font-size: 2rem;
-        }
-    
-    
-        .home-content{
-            justify-content: center;
-            align-items: center;
-            
-        }
-    
-        .home-content h1{
-            font-size: 2rem;
-        }
+
+    .home-content {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .home-content h1 {
+        font-size: 2rem;
+    }
 
 
 
