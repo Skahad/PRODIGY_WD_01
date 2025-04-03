@@ -7,7 +7,7 @@ A sleek and fully responsive landing page featuring a fixed navigation bar that 
 <li>✅ Fixed Navigation Bar – Always visible for easy access</li>
 <li>✅ Dynamic Scroll Effect – Navbar changes style when scrolling</li>
 <li>✅ Smooth Hover Animations – Enhances user engagement</li>
-<li>✅ Gradient Background – Eye-catching modern design</li>
+<li>✅ Solid Background – Eye-catching modern design</li>
 <li>✅ Fully Responsive – Works seamlessly across all devices</li>
 </ul>
 
