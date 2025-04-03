@@ -20,22 +20,11 @@ A sleek and fully responsive landing page featuring a fixed navigation bar that 
 
 <li>JavaScript – Adding interactivity and scroll effects</li>
 </ul>
-🔧 Installation
-<h3>1.Clone the repository:</h3>
 
-```bash
-git clone https://github.com/your-username/interactive-nav-landing.git
-```
 
-<h3>Navigate to the project folder:</h3>
 
-```bash
-cd interactive-nav-landing
-```
-<h3>Open index.html in your browser.</h3>
-
-<h3>📜 Usage</h3>
 <ul>
+<h3>📜 Usage</h3>
 <li>Scroll down to see the navigation bar transition.</li>
 
 <li>Hover over menu items to experience smooth animations.</li>
